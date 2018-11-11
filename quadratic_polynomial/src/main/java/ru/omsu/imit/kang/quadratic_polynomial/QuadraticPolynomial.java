@@ -14,5 +14,5 @@ public class QuadraticPolynomial {
         //TODO
         return null;
     }
-    
+
 }
