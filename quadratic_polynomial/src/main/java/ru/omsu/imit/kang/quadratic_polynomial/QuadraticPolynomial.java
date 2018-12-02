@@ -11,8 +11,12 @@ public class QuadraticPolynomial {
         this.a = a;this.b = b;this.c = c;
     }
     public double[] solve(){
-        //TODO
-        return null;
+        double Diskriminant = b*b - 4*a*c;
+        if (Diskriminant < 0){
+            throw new IllegalArgumentException("Discriminant < 0");
+        }
+        double[] res = {(-b+Math.sqrt(Diskriminant))/(2*a),(-b-Math.sqrt(Diskriminant))/(2*a)};
+        return res;
     }
 
 }
