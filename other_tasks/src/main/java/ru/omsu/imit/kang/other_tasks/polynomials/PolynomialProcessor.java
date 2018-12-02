@@ -1,4 +1,4 @@
-package ru.omsu.imit.kang.other_tasks;
+package ru.omsu.imit.kang.other_tasks.polynomials;
 
 import ru.omsu.imit.kang.quadratic_polynomial.QuadraticPolynomial;
 

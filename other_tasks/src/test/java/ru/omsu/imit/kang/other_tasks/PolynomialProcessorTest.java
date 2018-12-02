@@ -1,6 +1,8 @@
 package ru.omsu.imit.kang.other_tasks;
 
 import org.junit.Test;
+import ru.omsu.imit.kang.other_tasks.polynomials.PolynomialProcessor;
+import ru.omsu.imit.kang.other_tasks.polynomials.PolynomialProcessorException;
 import ru.omsu.imit.kang.quadratic_polynomial.QuadraticPolynomial;
 
 import static org.junit.Assert.*;
