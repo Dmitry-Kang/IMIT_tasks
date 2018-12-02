@@ -6,17 +6,16 @@ public class QuadraticPolynomial {
 
     public QuadraticPolynomial(double a, double b, double c){
         if(a == 0){
-            throw new IllegalArgumentException("a must be not zero");
+            throw new IllegalArgumentException("First argument must be not zero");
         }
-        this.a = a;this.b = b;this.c = c;
+        this.a = a; this.b = b; this.c = c;
     }
     public double[] solve(){
-        double Diskriminant = b*b - 4*a*c;
-        if (Diskriminant < 0){
-            throw new IllegalArgumentException("Discriminant < 0");
+        double diskriminant = b*b - 4*a*c;
+        if (diskriminant < 0){
+            return new double[0];
         }
-        double[] res = {(-b+Math.sqrt(Diskriminant))/(2*a),(-b-Math.sqrt(Diskriminant))/(2*a)};
-        return res;
+        return new double[]{(-b+Math.sqrt(diskriminant))/(2*a),(-b-Math.sqrt(diskriminant))/(2*a)};
     }
 
 }
