@@ -17,5 +17,4 @@ public class QuadraticPolynomial {
         }
         return new double[]{(-b+Math.sqrt(diskriminant))/(2*a),(-b-Math.sqrt(diskriminant))/(2*a)};
     }
-
 }

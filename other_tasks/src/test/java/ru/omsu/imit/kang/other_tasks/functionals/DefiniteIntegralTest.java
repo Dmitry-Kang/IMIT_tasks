@@ -12,7 +12,6 @@ public class DefiniteIntegralTest {
     @DataProvider
     public static Object[][] definedData() {
         return new Object[][] {
-                // TODO: this tests
                 { new LinearFunction(0, 0, -1, 2), 0.0, 25 },
                 { new LinearFunction(0, 0, -1, 2), 0.0, 25 }
         };

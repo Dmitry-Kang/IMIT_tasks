@@ -8,7 +8,7 @@ import ru.omsu.imit.kang.quadratic_polynomial.QuadraticPolynomial;
 import static org.junit.Assert.*;
 
 public class PolynomialProcessorTest {
-
+//Comment
     @Test(expected = PolynomialProcessorException.class)
     public void getMaxRootNoRoots() throws PolynomialProcessorException {
         QuadraticPolynomial p = new QuadraticPolynomial(2,2,1);
